@@ -1,4 +1,5 @@
 /*mobile view*/
+/* Tope's mobile start*/
 body {
     margin: 0;
     padding: 0;
@@ -62,9 +63,11 @@ body {
 .m-dots {
     text-decoration: none;
 }
+/* Tope's mobile end*/
 
 /*tab view*/
 @media screen and (min-width: 768px) {
+/* Tope's tab start*/
     .tnw {
         width: 120px;
         height: 100px;
@@ -128,6 +131,7 @@ body {
         justify-content: space-between;
         list-style: none;
         column-gap: 1em;
+        color: darkgrey;
     }
 
     #shift {
@@ -167,9 +171,30 @@ body {
         position: relative;
         top: 0.3em;
     }
+/* Tope's tab end*/
 }
 
 /*desktop view*/
 @media screen and (min-width: 1024px) {
+/* Tope's desktop start*/
+    .tnw-logo {
+        display: none;
+    }
 
+    .header-list {
+        color: darkgrey;
+    }
+
+    #shift {
+        display: block;
+    }
+
+    #neural {
+        display: block;
+    }
+
+    .text {
+        padding-left: 40px;
+    }
+/* Tope's desktop end*/
 }
