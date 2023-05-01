@@ -1,5 +1,176 @@
+/*mobile view*/
+* {
+    outline: 1px solid red;
+  }
+
 body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /*border: 1px solid #000;*/
+}
+
+.tnw {
+    margin: 0;
+    width: 90px;
+    height: 50px;
+}
+
+.navlist-subcontainer {
+    display: none;
+}
+
+.header-list{
+    display: none;
+}
+
+.nav-icons {
+    display: block;
+}
+
+.search {
+    padding: 12px;
+    border-right: 1px solid darkgrey;
+    border-left: 1px solid darkgrey;
+    color: darkgrey;
+}
+
+.menu {
+    padding: 5px;
+    color: #f42;
+    padding: 12px;
+}
+
+.menu1 {
+    text-decoration: none;
+}
+
+.header-text {
+    margin-top: -20px;
+}
+
+.text {
+    background-color: #ffea00;
+    padding: 15px;
+}
+
+.text2 {
+    display: none;
+}
+
+.m-dots {
+    text-decoration: none;
+}
+
+/*tab view*/
+@media screen and (min-width: 768px) {
+    .tnw {
+        width: 120px;
+        height: 100px;
+    }
+
+    .nav-links {
+        justify-content: flex-start;
+    }
+
+    .navlist-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .navlist-subcontainer {
+        display: flex;
+        background-color: black;
+        padding-bottom: 5px;
+        height: 49px;
+    }
+
+    .nav-list {
+        display: flex;
+        color: darkgrey;
+        justify-content: space-between;
+        list-style: none;
+        width: -webkit-fill-available;
+        padding: 10px;
+        padding-top: 0;
+    }
+
+    .sub-list1 {
+        display: flex;
+        column-gap: 1em;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+
+    .sub-list2 {
+        display: flex;
+        column-gap: 1em;
+        font-size: 14px;
+    }
+
+    .spacing {
+        padding-right: 12px;
+    }
+
+    .header-list-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .header-list{
+        display: flex;
+        justify-content: space-between;
+        list-style: none;
+        column-gap: 1em;
+    }
+
+    #shift {
+        display: none;
+    }
+
+    #neural {
+        display: none;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .nav-icons {
+        display: flex;
+    }
+
+    .text {
+        padding-left: 160px;
+        height: 11px;
+    }
+
+    .m-dots {
+        display: none;
+    }
+
+    .text2 {
+        display: block;
+        width: 15%;
+        position: relative;
+        left: 29em;
+        bottom: 1.73em;
+    }
+
+    .arrow {
+        position: relative;
+        top: 0.3em;
+    }
+}
+
+/*desktop view*/
+@media screen and (min-width: 1024px) {
+
 }
