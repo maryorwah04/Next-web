@@ -1,8 +1,4 @@
 /*mobile view*/
-* {
-    outline: 1px solid red;
-  }
-
 body {
     margin: 0;
     padding: 0;
@@ -13,7 +9,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /*border: 1px solid #000;*/
 }
 
 .tnw {
@@ -107,6 +102,10 @@ body {
         column-gap: 1em;
         font-size: 14px;
         margin-left: 25px;
+    }
+
+    #news {
+        color: white;
     }
 
     .sub-list2 {
