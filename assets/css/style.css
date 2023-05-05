@@ -415,7 +415,15 @@ body {
 /*soliu start */
 
 .categories {
-   background-color: #f42;
    height: 400px;
    margin-top: 5%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
+
+.categories_item {
+    width: 90%;
+    height: 90%;
+    background-color: #ffea00;
+} 
