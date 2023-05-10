@@ -446,8 +446,32 @@ body {
     color: #f42;
 }
 
-.category_img {
+.category_img1, .category_img2, .category_img3 {
     height: 80%;
-    background-color: blue;
+    position: relative;
+}
+
+.category_img1 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+        url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-1.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.category_img2 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+        url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.category_img3 {
+    background-image: linear-gradient(
+        rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+        url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-3.jpg);
+    background-position: center;
+    background-size: cover;
 }
 
