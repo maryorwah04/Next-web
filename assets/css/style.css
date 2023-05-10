@@ -5,6 +5,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
 }
 
 .nav-links {
@@ -65,6 +66,95 @@ body {
     text-decoration: none;
 }
 /* Tope's mobile end*/
+
+/*Azeez Mobile start*/
+.imgs {
+    align-content: space-between;
+}
+
+.flex-sub-container {
+    align-content: space-between;
+}
+
+.item1 {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.opal {
+    font-family: Avalon, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    color: white;
+}
+
+.google {
+    font-family: Avalon, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    position: absolute;
+    bottom: 50px;
+    left: 10px;
+    color: white;
+}
+
+.mobile-author {
+    display: flex;
+    color: grey;
+    position: absolute;
+    bottom: 5px;
+    left: -28px;
+    font-family: Avalon, sans-serif;
+    font-size: 15px;
+    list-style: none;
+  }
+  
+  .share-time {
+    text-decoration: none;
+    padding-left: 20px;
+  }
+
+  .mobile-a {
+    text-decoration: none;
+    color: grey;
+  }
+  
+  .fa {
+    padding-left: 10px;
+  }
+
+  .item2 {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 2.jpeg") no-repeat;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-bottom: 10px;
+  }
+  
+  .item3 {
+    background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 3.png") no-repeat;
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  .date-time {
+    display: none;
+  }
+  
+/*Azeez Mobile end*/
 
 /*tab view*/
 @media screen and (min-width: 768px) {
@@ -173,6 +263,56 @@ body {
         top: 0.3em;
     }
 /* Tope's tab end*/
+
+/* Azeez's tab start*/
+    .imgs {
+        display: flex;
+    }
+
+    .item1 {
+        background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 350px;
+        margin-left: 5px;
+    }
+
+    .opal {
+        font-size: 30px;
+        position: absolute;
+        bottom: 70px;
+    }
+
+    .flex-sub-container {
+        display: block;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .item2 {
+        height: 170px;
+}
+
+    .item3 {
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    .mobile-author {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .google {
+        font-size: 15px;
+    }
+
+    .date-time {
+        display: none;
+    }
+
+/* Azeez's tab end*/
 }
 
 /*desktop view*/
@@ -198,4 +338,76 @@ body {
         padding-left: 40px;
     }
 /* Tope's desktop end*/
+
+/*Azeez's desktop start*/
+    .imgs {
+        display: flex;
+    }
+
+    .date-time {
+        display: flex;
+    }
+
+    .date {
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        color: white;
+    }
+
+    .tnw-i1 {
+        width: 320px;
+        height: 100px;
+        position: absolute;
+        top: 20px;
+        left: 20px;
+    }
+
+    .item1 {
+        background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+        background-repeat: no-repeat;
+        width: 70%;
+        height: 350px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    .opal {
+        font-size: 40px;
+        position: absolute;
+        bottom: 55px;
+    }
+
+    .item2 {
+        height: 170px;
+        margin-bottom: 0;
+    }
+
+    .item3 {
+        height: 170px;
+        margin-top: 10px;
+    }
+
+    .flex-sub-container {
+        display: block;
+        width: 30%;
+        margin-left: 10px;
+        margin-right: 5px;
+    }
+
+    .google {
+        font-size: 15px;
+        letter-spacing: 1px;
+        line-height: 20px;
+    }
+
+    .mobile-author {
+        font-size: 13px;
+    }
+
+    .mobile-a:hover {
+        color: white;
+    }
+
+/*Azeez's desktop end*/
 }
