@@ -425,5 +425,29 @@ body {
 .categories_item {
     width: 90%;
     height: 90%;
-    background-color: #ffea00;
-} 
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.category {
+    width: calc(100% / 3.2);
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.category_header {
+    height: 20%;
+    font-size: 2em;
+    line-height: 2;
+    color: #f42;
+}
+
+.category_img {
+    height: 80%;
+    background-color: blue;
+}
+
