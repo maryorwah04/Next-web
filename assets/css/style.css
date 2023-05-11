@@ -67,9 +67,10 @@ body {
 }
 
 .latest-news {
-  font-size: 30px;
+  font-size: 25px;
   color: #f42;
   padding: 20px;
+  font-weight: 600;
 }
 
 .ln-sub {
@@ -296,6 +297,33 @@ body {
 .arrow {
   position: relative;
   top: 0.3em;
+}
+
+.latest-news {
+  font-weight: 600;
+}
+
+.ln-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.ln-sub {
+  display: block;
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.sub-img {
+  height: 150px;
+  width: 110%;
+}
+
+.ln-lint {
+  margin-left: 12px;
 }
 /* Tope's tab end*/
 
