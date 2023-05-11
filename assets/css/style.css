@@ -66,11 +66,16 @@ body {
   text-decoration: none;
 }
 
+.ln {
+  padding-top: 30px;
+}
+
 .latest-news {
   font-size: 25px;
   color: #f42;
-  padding: 20px;
-  font-weight: 600;
+  margin-left: 10px;
+  font-weight: 800;
+  text-decoration: none;
 }
 
 .ln-sub {
@@ -80,7 +85,11 @@ body {
 .ln-img {
   margin-right: 4%;
   margin-bottom: 2%;
-  margin-left: 5%;
+  margin-left: 3%;
+}
+
+.ln-lint {
+  margin-right: 10px;
 }
 
 .ln-links {
@@ -90,9 +99,23 @@ body {
   font-weight: 700;
 }
 
+.ln-links:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
 .ln-text {
   font-size: small;
   color: darkgrey;
+}
+
+.sub-text {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.sub-text:hover {
+  text-decoration: underline;
 }
 
 .dot {
@@ -190,7 +213,7 @@ body {
 .date-time {
   display: none;
 }
-  /*Azeez Mobile end*/
+/*Azeez Mobile end*/
 
 /*tab view*/
 @media screen and (min-width: 768px) {
@@ -300,7 +323,7 @@ body {
 }
 
 .latest-news {
-  font-weight: 600;
+  margin-left: 36px;
 }
 
 .ln-container {
@@ -317,13 +340,19 @@ body {
   margin-left: 10px;
 }
 
+.ln-img {
+  margin-right: 4%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+
 .sub-img {
   height: 150px;
   width: 110%;
 }
 
 .ln-lint {
-  margin-left: 12px;
+  margin-left: 10%;
 }
 /* Tope's tab end*/
 
@@ -400,6 +429,28 @@ body {
 .text {
   padding-left: 40px;
 }
+
+.latest-news {
+  margin-left: 85px;
+}
+
+.ln-container {
+  width: 96%;
+  margin: 35px;
+}
+
+.sub-img {
+  height: 200px;
+  width: 110%;
+}
+
+.ln-sub {
+  width: 20%;
+}
+
+/*.ln-lint {
+  margin-left: 15px;
+}*/
 /* Tope's desktop end*/
 
 /*Azeez's desktop start*/
