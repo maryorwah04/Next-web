@@ -415,7 +415,7 @@ body {
 /*soliu start */
 
 .categories {
-   height: 400px;
+   height: 500px;
    margin-top: 5%;
    display: flex;
    justify-content: center;
@@ -447,7 +447,7 @@ body {
 }
 
 .category_img1, .category_img2, .category_img3 {
-    height: 80%;
+    height: 60%;
     position: relative;
 }
 
@@ -473,5 +473,33 @@ body {
         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-3.jpg);
     background-position: center;
     background-size: cover;
+}
+
+.c_img_text {
+    color: #fff;
+    position: absolute;
+    left: 10px;
+    bottom: 30px;
+}
+
+.c_img_text_para {
+    color: #898888;
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 15px;
+}
+
+.sub_category {
+    height: 15%;
+}
+
+.sub_category_img {
+    float: right;
+}
+
+.sub_category_txt {
+    font-size: 15px;
+    color: #f42;
 }
 
