@@ -125,6 +125,46 @@ body {
   margin-right: 3px;
   margin-left: 3px;
 }
+
+.ld-price {
+  display: flex;
+}
+
+.price1 {
+  color: darkgrey;
+  font-size: x-small;
+  text-decoration: line-through;
+  margin-top: 7px;
+}
+
+.price2 {
+  color: black;
+  font-size: medium;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.latest-deal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-deals1 {
+  font-size: 25px;
+  color: #f42;
+  margin-left: 10px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.latest-deals2 {
+  color: #f42;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 13px;
+  margin-right: 20px;
+}
 /* Tope's mobile end*/
 
 /*Azeez Mobile start*/
@@ -483,6 +523,18 @@ body {
 .ln-lint {
   margin-left: 10%;
 }
+
+.price1 {
+  font-size: smaller;
+}
+
+.latest-deals1 {
+  margin-left: 37px;
+}
+
+.latest-deals2 {
+  margin-right: 25px;
+}
 /* Tope's tab end*/
 
 /* Azeez's tab start*/
@@ -626,6 +678,14 @@ body {
 
 .ln-sub {
   width: 20%;
+}
+
+.latest-deals1 {
+  margin-left: 72px;
+}
+
+.latest-deals2 {
+  margin-right: 175px;
 }
 /* Tope's desktop end*/
 
