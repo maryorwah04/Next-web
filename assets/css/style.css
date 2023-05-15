@@ -406,9 +406,31 @@ body {
   line-height: 2;
 }
 
-.category_img {
+.category_bg_img {
   height: 30%;
-  background-color: #ffea00;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+}
+
+.img_text {
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+}
+
+.img_text_para {
+  color: #898888;
+  position: absolute;
+  bottom: 10px;
+  font-size: 15px;
+}
+
+.bg_img1 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-1.jpg");
 }
 
 .category_sub {
