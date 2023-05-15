@@ -414,6 +414,13 @@ body {
   padding: 10px;
 }
 
+.bg_img1 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-1.jpg");
+}
+
+
 .img_text {
   color: #fff;
   position: absolute;
@@ -427,15 +434,19 @@ body {
   font-size: 15px;
 }
 
-.bg_img1 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/categories-1.jpg");
+.category_sub {
+  padding: 10px;
+  height: 15%;
+  background-color: rgb(204, 230, 230);
+  font-size: large;
 }
 
-.category_sub {
-  height: 15%;
-  background-color: aqua;
+.category_sub_img {
+  float: right;
+}
+
+.category_sub_text {
+  color: #f42;
 }
 
 .category_list {
