@@ -681,12 +681,13 @@ body {
   width: 20%;
 }
 
-.latest-deals1 {
-  margin-left: 72px;
+.latest-deal{
+  width: 85%;
+  margin-left: 5px;
 }
 
-.latest-deals2 {
-  margin-right: 175px;
+.latest-deals1 {
+  margin-left: 72px;
 }
 /* Tope's desktop end*/
 
