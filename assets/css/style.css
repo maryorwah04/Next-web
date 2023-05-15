@@ -470,9 +470,6 @@ body {
     url("../images/distractimg.jpg");
 }
 
-
-
-
 .img_text {
   color: #fff;
   position: absolute;
@@ -494,6 +491,7 @@ body {
 
 .category_sub_img {
   float: right;
+  width: 100px;
 }
 
 .category_sub_text {
@@ -768,6 +766,15 @@ body {
   display: none;
 }
 /* Azeez's tab end*/
+
+/*Soliu's tab start*/
+
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+/*Soliu's tab end*/
 
 }
 
