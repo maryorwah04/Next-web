@@ -386,6 +386,40 @@ body {
 
 /*soliu's mobile start*/
 
+.categories_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.category {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.category_header {
+  height: 10%;
+  color: #f42;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.category_img {
+  height: 30%;
+  background-color: #ffea00;
+}
+
+.category_sub {
+  height: 15%;
+  background-color: aqua;
+}
+
+.category_list {
+  height: 40%;
+  background-color: blueviolet;
+}
 
 /*soliu's mobile start*/
 
