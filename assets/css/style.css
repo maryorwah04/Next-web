@@ -435,9 +435,8 @@ body {
 }
 
 .category_sub {
-  padding: 10px;
+  padding: 5px;
   height: 15%;
-  background-color: rgb(204, 230, 230);
   font-size: large;
 }
 
@@ -451,10 +450,17 @@ body {
 
 .category_list {
   height: 40%;
-  background-color: blueviolet;
 }
 
-/*soliu's mobile start*/
+.category_list_ul > li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #898888;
+  color: #898888;
+
+}
+
+/*soliu's mobile end*/
 
 
 /*tab view*/
