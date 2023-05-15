@@ -426,6 +426,12 @@ body {
     url("../images/categories-2.jpg");
 }
 
+.bg_img3 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-3.jpg");
+}
+
 
 .img_text {
   color: #fff;
