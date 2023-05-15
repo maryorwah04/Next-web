@@ -946,7 +946,12 @@ body {
   margin-right: 5px;
 }
 /*Azeez's desktop end*/
-}
 
 /*soliu desktop start */
+
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+}
 
