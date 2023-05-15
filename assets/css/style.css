@@ -344,6 +344,21 @@ body {
 
 /*Azeez Mobile end*/
 
+/*soliu's mobile start*/
+@media screen and (max-width: 768px) {
+    .categories_item, .categories_item2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+       justify-content: space-between;
+    }
+
+    .category, .category2 {
+        width: 100%;
+    }
+}
+
 /*tab view*/
 @media screen and (min-width: 768px) {
 /*Tope's tab start*/
@@ -587,6 +602,7 @@ body {
 
 }
 
+/*soliu's tab start*/
 /*desktop view*/
 @media screen and (min-width: 1024px) {
 /* Tope's desktop start*/
@@ -747,7 +763,7 @@ body {
 /*Azeez's desktop end*/
 }
 
-/*soliu start */
+/*soliu desktop start */
 
 .categories {
     margin-top: 5%;
@@ -788,7 +804,7 @@ body {
  .category_img1 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-1.jpg);
+         url("../images/categories-1.jpg");
      background-position: center;
      background-size: cover;
  }
@@ -796,7 +812,7 @@ body {
  .category_img2 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-2.jpg);
+         url("../images/categories-2.jpg");
      background-position: center;
      background-size: cover;
  }
@@ -804,7 +820,7 @@ body {
  .category_img3 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-3.jpg);
+         url("../images/categories-3.jpg");
      background-position: center;
      background-size: cover;
  }
@@ -879,7 +895,7 @@ body {
  .category2_img1 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/techimg.jpg);
+         url("../images/techimg.jpg");
      background-position: center;
      background-size: cover;
  }
@@ -887,7 +903,7 @@ body {
  .category2_img2 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/creativityimg.webp);
+         url("../images/creativityimg.webp");
      background-position: center;
      background-size: cover;
  }
@@ -895,7 +911,7 @@ body {
  .category2_img3 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/podiumimg.webp);
+         url("../images/podiumimg.webp");
      background-position: center;
      background-size: cover;
  }
@@ -941,7 +957,7 @@ body {
  .category3_img1 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/insightimg.webp);
+         url("../images/insightimg.webp");
      background-position: center;
      background-size: cover;
  }
@@ -949,7 +965,7 @@ body {
  .category3_img2 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/launchimg.jpg);
+         url("../images/launchimg.jpg");
      background-position: center;
      background-size: cover;
  }
@@ -957,22 +973,8 @@ body {
  .category3_img3 {
      background-image: linear-gradient(
          rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-         url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/distractimg.jpg);
+         url("../images/distractimg.jpg");
      background-position: center;
      background-size: cover;
- }
- 
- @media screen and (max-width: 768px) {
-     .categories_item, .categories_item2 {
-         display: flex;
-         flex-direction: column;
-         width: 100%;
-         display: flex;
-        justify-content: space-between;
-     }
- 
-     .category, .category2 {
-         width: 100%;
-     }
  }
 
