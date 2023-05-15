@@ -390,6 +390,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 20px;
+  align-items: center;
 }
 
 .category {
@@ -397,6 +398,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  width: 90%;
 }
 
 .category_header {
@@ -437,6 +439,38 @@ body {
     rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/techimg.jpg");
 }
+
+.bg_img5 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/creativityimg.webp");
+}
+
+.bg_img6 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/podiumimg.webp");
+}
+
+.bg_img7 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/insightimg.webp");
+}
+
+.bg_img8 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/launchimg.jpg");
+}
+
+.bg_img9 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/distractimg.jpg");
+}
+
+
 
 
 .img_text {
