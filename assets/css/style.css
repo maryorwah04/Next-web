@@ -432,6 +432,12 @@ body {
     url("../images/categories-3.jpg");
 }
 
+.bg_img4 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/techimg.jpg");
+}
+
 
 .img_text {
   color: #fff;
@@ -462,6 +468,7 @@ body {
 
 .category_list {
   height: 40%;
+  padding-top: 20px;
 }
 
 .category_list_ul > li {
@@ -727,9 +734,10 @@ body {
   display: none;
 }
 /* Azeez's tab end*/
+
 }
 
-/*soliu's tab start*/
+
 /*desktop view*/
 @media screen and (min-width: 1024px) {
 /* Tope's desktop start*/
