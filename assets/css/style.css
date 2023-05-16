@@ -947,6 +947,7 @@ body {
 .categories_item {
   display: grid;
   grid-template-columns: auto auto auto;
+  margin-left: 50px;
 }
 /*soliu's desktop end*/
 }
