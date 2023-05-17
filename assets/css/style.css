@@ -384,6 +384,21 @@ body {
 }
 /*Azeez Mobile end*/
 
+/*soliu's mobile start*/
+@media screen and (max-width: 768px) {
+    .categories_item, .categories_item2 {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        display: flex;
+       justify-content: space-between;
+    }
+
+    .category, .category2 {
+        width: 100%;
+    }
+}
+
 /*tab view*/
 @media screen and (min-width: 768px) {
 /*Tope's tab start*/
@@ -638,6 +653,7 @@ body {
 /* Azeez's tab end*/
 }
 
+/*soliu's tab start*/
 /*desktop view*/
 @media screen and (min-width: 1024px) {
 /* Tope's desktop start*/
@@ -808,6 +824,8 @@ body {
 }
 /*soliu start */
 
+/*soliu desktop start */
+
 .categories {
   margin-top: 5%;
   display: flex;
@@ -844,29 +862,29 @@ body {
   position: relative;
 }
  
-.category_img1 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-1.jpg);
-  background-position: center;
-  background-size: cover;
-}
+ .category_img1 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/categories-1.jpg");
+     background-position: center;
+     background-size: cover;
+ }
  
-.category_img2 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-2.jpg);
-  background-position: center;
-  background-size: cover;
-}
+ .category_img2 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/categories-2.jpg");
+     background-position: center;
+     background-size: cover;
+ }
  
-.category_img3 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/categories-3.jpg);
-  background-position: center;
-  background-size: cover;
-}
+ .category_img3 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/categories-3.jpg");
+     background-position: center;
+     background-size: cover;
+ }
  
 .c_img_text {
   color: #fff;
@@ -957,78 +975,113 @@ body {
   background-size: cover;
 }
  
-.c2_img_text {
-  color: #fff;
-  position: absolute;
-  left: 10px;
-  bottom: 30px;
-}
-
-.c2_img_text_para {
-  color: #898888;
-  position: absolute;
-  bottom: 10px;
-  left: 10px;
-  font-size: 15px;
-}
-
-.sub_category2 {
-  height: 15%;
-}
-
-.sub_category2_img {
-  float: right;
-}
-
-.sub_category2_txt {
-  font-size: 15px;
-  color: #f42;
-}
-
-.category2_list_ul > li {
-  padding-bottom: 3%;
-  margin-bottom: 3%;
-  color: #898888;
-  font-size: small;
-  border-bottom: 1px solid #898888;
-}
+ .categories_item2 {
+     height: 30%;
+     width: 90%;
+     padding: 20px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ 
+ .category2 {
+     width: calc(100% / 3.2);
+     height: 100%;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ 
+ .category2_header {
+     height: 5%;
+     font-size: 2em;
+     line-height: 2;
+     color: #f42;
+ }
+ 
+ .category2_img1 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/techimg.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .category2_img2 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/creativityimg.webp");
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .category2_img3 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/podiumimg.webp");
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .c2_img_text {
+     color: #fff;
+     position: absolute;
+     left: 10px;
+     bottom: 30px;
+ }
+ 
+ .c2_img_text_para {
+     color: #898888;
+     position: absolute;
+     bottom: 10px;
+     left: 10px;
+     font-size: 15px;
+ }
+ 
+ .sub_category2 {
+     height: 15%;
+ }
+ 
+ .sub_category2_img {
+     float: right;
+ }
+ 
+ .sub_category2_txt {
+     font-size: 15px;
+     color: #f42;
+ }
+ 
+ .category2_list_ul > li {
+     padding-bottom: 3%;
+     margin-bottom: 3%;
+     color: #898888;
+     font-size: small;
+     border-bottom: 1px solid #898888;
+ }
  
  /*category 3*/
  
-.category3_img1 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/insightimg.webp);
-  background-position: center;
-  background-size: cover;
-}
+ .category3_img1 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/insightimg.webp");
+     background-position: center;
+     background-size: cover;
+ }
  
-.category3_img2 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/launchimg.jpg);
-  background-position: center;
-  background-size: cover;
-}
+ .category3_img2 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/launchimg.jpg");
+     background-position: center;
+     background-size: cover;
+ }
  
-.category3_img3 {
-  background-image: linear-gradient(
-    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url(C:/Users/USER/Desktop/myprojects/Nextweb/assets/images/distractimg.jpg);
-  background-position: center;
-  background-size: cover;
-}
- 
-@media screen and (max-width: 768px) {
-.categories_item, .categories_item2 {
-  display: flex;
-  flex-direction: column;
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-}
- 
-.category, .category2 {
-  width: 100%;
-}
-}
+ .category3_img3 {
+     background-image: linear-gradient(
+         rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+         url("../images/distractimg.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+
