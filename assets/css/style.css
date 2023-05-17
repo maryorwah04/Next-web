@@ -385,19 +385,134 @@ body {
 /*Azeez Mobile end*/
 
 /*soliu's mobile start*/
-@media screen and (max-width: 768px) {
-    .categories_item, .categories_item2 {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        display: flex;
-       justify-content: space-between;
-    }
 
-    .category, .category2 {
-        width: 100%;
-    }
+.categories_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
 }
+
+.category {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.category_header {
+  height: 10%;
+  color: #f42;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.category_bg_img {
+  height: 30%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+}
+
+.bg_img1 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-1.jpg");
+}
+
+.bg_img2 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-2.jpg");
+}
+
+.bg_img3 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-3.jpg");
+}
+
+.bg_img4 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/techimg.jpg");
+}
+
+.bg_img5 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/creativityimg.webp");
+}
+
+.bg_img6 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/podiumimg.webp");
+}
+
+.bg_img7 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/insightimg.webp");
+}
+
+.bg_img8 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/launchimg.jpg");
+}
+
+.bg_img9 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/distractimg.jpg");
+}
+
+.img_text {
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+}
+
+.img_text_para {
+  color: #898888;
+  position: absolute;
+  bottom: 10px;
+  font-size: 15px;
+}
+
+.category_sub {
+  padding: 5px;
+  height: 15%;
+  font-size: large;
+}
+
+.category_sub_img {
+  float: right;
+  width: 100px;
+}
+
+.category_sub_text {
+  color: #f42;
+}
+
+.category_list {
+  height: 40%;
+  padding-top: 20px;
+}
+
+.category_list_ul > li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #898888;
+  color: #898888;
+
+}
+
+/*soliu's mobile end*/
+
 
 /*tab view*/
 @media screen and (min-width: 768px) {
@@ -651,9 +766,19 @@ body {
   display: none;
 }
 /* Azeez's tab end*/
+
+/*Soliu's tab start*/
+
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto;
 }
 
-/*soliu's tab start*/
+/*Soliu's tab end*/
+
+}
+
+
 /*desktop view*/
 @media screen and (min-width: 1024px) {
 /* Tope's desktop start*/
@@ -1084,4 +1209,14 @@ body {
      background-position: center;
      background-size: cover;
  }
+
+/*soliu desktop start */
+
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+/*soliu's desktop end*/
+
 
