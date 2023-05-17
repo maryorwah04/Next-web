@@ -512,7 +512,6 @@ body {
 /*soliu's mobile end*/
 
 /*soliu's footer mobile start*/
-
 .footer {
   display: flex;
   flex-direction: column;
@@ -564,41 +563,36 @@ body {
 }
 
 .footer_links_list > li {
-    margin-left: 10px;
+  margin-left: 10px;
 }
 
 .footer_links_list > li:hover {
-    cursor: pointer;
-    color: #fff;
-    font-size: 13px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
 }
 
 .copyright {
-    color: #fff;
-    line-height: 5em;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #fff;
+  line-height: 5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .TNW_home {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
 }
 
 .copyright > span {
-    color: #555;
+  color: #555;
 }
 
 .footer_links_list {
   font-size: 14px;
   flex-wrap: wrap;
 }
-
 /*soliu's footer mobile end*/
-
-
-
-
 
 /*tab view*/
 @media screen and (min-width: 768px) {
@@ -859,9 +853,7 @@ body {
   grid-template-columns: auto auto;
 }
 /*Soliu's tab end*/
-
 }
-
 
 /*desktop view*/
 @media screen and (min-width: 1024px) {
@@ -1039,4 +1031,3 @@ body {
 }
 /*soliu's desktop end*/
 }
-
