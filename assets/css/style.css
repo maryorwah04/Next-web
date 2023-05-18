@@ -483,9 +483,9 @@ body {
 }
 
 .category_sub {
-  padding: 5px;
+  padding-top: 3px;
   height: 15%;
-  font-size: large;
+  font-size: 16px;
 }
 
 .category_sub_img {
@@ -497,7 +497,23 @@ body {
   color: #f42;
   background-color: mistyrose;
   padding-bottom: 20px;
-  padding-top: 5px;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.category_sub_text2 {
+  color: #f42;
+  background-color: mistyrose;
+  padding-top: 11px;
+  padding-left: 15px;
+  padding-bottom: 3px;
+}
+
+.category_sub_text3 {
+  color: #f42;
+  background-color: mistyrose;
+  padding-bottom: 38px;
+  padding-top: 11px;
   padding-left: 15px;
 }
 
