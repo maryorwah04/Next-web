@@ -373,6 +373,7 @@ body {
 .separate {
   display: none;
 }
+
 /* Azeez Mobile end */
 
 /* soliu's mobile start */
@@ -609,7 +610,9 @@ body {
 .copyright > span {
   color: #555;
 }
+
 /* soliu's footer mobile end */
+
 /* soliu's mobile end */
 
 /* tab view */
@@ -763,6 +766,7 @@ body {
   .latest-deals2 {
     margin-right: 25px;
   }
+  
   /* Tope's tab end */
 
   /* Azeez's tab start */
@@ -845,6 +849,7 @@ body {
   .separate {
     display: none;
   }
+  
   /* Azeez's tab end */
 
   /* Soliu's tab start */
@@ -857,6 +862,7 @@ body {
   .category_sub_text3 {
     padding-bottom: 5px;
   }
+  
   /* Soliu's tab end */
 }
 
@@ -909,6 +915,7 @@ body {
   .latest-deals1 {
     margin-left: 72px;
   }
+  
   /* Tope's desktop end */
 
   /* Azeez's desktop start */
@@ -1026,6 +1033,7 @@ body {
     margin-left: 5px;
     margin-right: 5px;
   }
+  
   /* Azeez's desktop end */
 
   /* soliu desktop start */
@@ -1043,5 +1051,6 @@ body {
   .category_sub_text4 {
     padding-bottom: 40px;
   }
+  
   /* soliu's desktop end */
 }
