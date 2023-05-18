@@ -4,7 +4,7 @@ Next-web is a responsive webpage which was designed using semantic HTML & CSS.
 
 ### Live Demo
 
-[Live Demo link]()
+[Live Demo link](https://maryorwah04.github.io/Next-web/)
 
 
 ## Authors
@@ -26,7 +26,7 @@ Next-web is a responsive webpage which was designed using semantic HTML & CSS.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/maryorwah04/Next-web/issues).
 
 ## Show your support
 
