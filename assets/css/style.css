@@ -234,8 +234,7 @@ body {
 }
 
 .item2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 2.jpeg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 2.jpeg") no-repeat;
   box-sizing: border-box;
   height: 200px;
   background-position: center;
@@ -245,8 +244,7 @@ body {
 }
 
 .item3 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 3.png") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 3.png") no-repeat;
   box-sizing: border-box;
   height: 200px;
   background-size: cover;
