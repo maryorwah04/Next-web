@@ -1,4 +1,5 @@
-/*mobile view*/
+/* mobile view */
+
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +8,8 @@ body {
   overflow-x: hidden;
 }
 
-/* Tope's mobile start*/
+/* Tope's mobile start */
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -40,7 +42,6 @@ body {
 }
 
 .menu {
-  padding: 5px;
   color: #f42;
   padding: 12px;
 }
@@ -166,14 +167,15 @@ body {
   margin-top: 13px;
   margin-right: 20px;
 }
-/* Tope's mobile end*/
 
-/*Azeez Mobile start*/
+/* Tope's mobile end */
+
+/* Azeez Mobile start */
+
 .imgs {
   align-content: space-between;
   margin-left: 7px;
   margin-right: 10px;
-  align-content: space-between;
 }
 
 .flex-sub-container {
@@ -183,15 +185,6 @@ body {
 .item1 {
   background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/image 1.jpeg") no-repeat;
-  box-sizing: border-box;
-  height: 200px;
-  background-size: cover;
-  background-position: center;
-  position: relative;
-  margin-bottom: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 1.jpeg") no-repeat;
-  width: 100%;
   height: 200px;
   background-size: cover;
   background-position: center;
