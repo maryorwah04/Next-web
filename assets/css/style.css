@@ -1,0 +1,1096 @@
+/*mobile view*/
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Tope's mobile start*/
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tnw {
+  margin: 0;
+  width: 90px;
+  height: 50px;
+}
+
+.navlist-subcontainer {
+  display: none;
+}
+
+.header-list{
+  display: none;
+}
+
+.nav-icons {
+  display: block;
+}
+
+.search {
+  padding: 12px;
+  border-right: 1px solid darkgrey;
+  border-left: 1px solid darkgrey;
+  color: darkgrey;
+}
+
+.menu {
+  padding: 5px;
+  color: #f42;
+  padding: 12px;
+}
+
+.menu1 {
+  text-decoration: none;
+}
+
+.header-text {
+  margin-top: -20px;
+}
+
+.text {
+  background-color: #ffea00;
+  padding: 15px;
+}
+
+.text2 {
+  display: none;
+}
+
+.m-dots {
+  text-decoration: none;
+}
+
+.ln {
+  padding-top: 30px;
+}
+
+.latest-news {
+  font-size: 25px;
+  color: #f42;
+  margin-left: 10px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.ln-sub {
+  display: flex;
+}
+
+.ln-img {
+  margin-right: 4%;
+  margin-bottom: 2%;
+  margin-left: 3%;
+}
+
+.ln-lint {
+  margin-right: 10px;
+}
+
+.ln-links {
+  color: #000;
+  text-decoration: none;
+  font-size: 1.0rem;
+  font-weight: 700;
+}
+
+.ln-links:hover {
+  color: #f42;
+  text-decoration: underline;
+}
+
+.ln-text {
+  font-size: small;
+  color: darkgrey;
+}
+
+.sub-text {
+  color: darkgrey;
+  text-decoration: none;
+}
+
+.sub-text:hover {
+  text-decoration: underline;
+}
+
+.dot {
+  text-decoration: none;
+  position: relative;
+  bottom: 0.3em;
+  margin-right: 3px;
+  margin-left: 3px;
+}
+
+.ld-price {
+  display: flex;
+}
+
+.price1 {
+  color: darkgrey;
+  font-size: x-small;
+  text-decoration: line-through;
+  margin-top: 7px;
+}
+
+.price2 {
+  color: black;
+  font-size: medium;
+  text-decoration: none;
+  margin: 5px;
+  padding-left: 5px;
+}
+
+.latest-deal {
+  display: flex;
+  justify-content: space-between;
+}
+
+.latest-deals1 {
+  font-size: 25px;
+  color: #f42;
+  margin-left: 10px;
+  font-weight: 800;
+  text-decoration: none;
+}
+
+.latest-deals2 {
+  color: #f42;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 500;
+  margin-top: 13px;
+  margin-right: 20px;
+}
+/* Tope's mobile end*/
+
+/*Azeez Mobile start*/
+.imgs {
+  align-content: space-between;
+  margin-left: 7px;
+  margin-right: 10px;
+  align-content: space-between;
+}
+
+.flex-sub-container {
+  align-content: space-between;
+}
+
+.item1 {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
+  box-sizing: border-box;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10px;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
+  width: 100%;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.opal {
+  font-family: Avalon, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+}
+
+.google { 
+  font-family: Avalon, sans-serif;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  bottom: 50px;
+  left: 10px;
+  color: white;
+}
+
+.mobile-author {
+  display: flex;
+  color: grey;
+  position: absolute;
+  bottom: 5px;
+  left: -28px;
+  font-family: Avalon, sans-serif;
+  font-size: 15px;
+  list-style: none;
+}
+  
+.share-time {
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+.mobile-a {
+  text-decoration: none;
+  color: grey;
+}
+  
+.fa {
+  padding-left: 10px;
+}
+
+.item2 {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 2.jpeg") no-repeat;
+  box-sizing: border-box;
+  height: 200px;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 10px;
+}
+  
+.item3 {
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 3.png") no-repeat;
+  box-sizing: border-box;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.date-time {
+  display: none;
+}
+
+.latest-funding {
+  margin-top: 20px;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.funding-text {
+  text-decoration: none;
+  color: orangered;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.add-info {
+  display: block;
+  color: #f42;
+  text-decoration: none;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.info {
+  display: block;
+  margin-top: 3px;
+  font-size: 20px;
+  color: #f42;
+  text-decoration: none;
+}
+
+.ring {
+  position: relative;
+  box-sizing: border-box;
+}
+  
+.ring1 {
+  background-color: orangered;
+  color: white;
+  font-weight: 600;
+  height: 35px;
+  padding-top: 10px;
+  padding-left: 90px;
+  margin-top: 15px;
+  margin-right: 10px;
+}
+  
+.ring2 {
+  background-color: mistyrose;
+  height: 40px;
+  padding-top: 10px;
+  padding-left: 90px;
+  font-weight: 600;
+  font-size: larger;
+  font-family: Avalon, sans-serif;
+  margin-right: 10px;
+}
+  
+.ring3 {
+  display: block;
+  font-size: 12px;
+  width: 100%;
+  color: gray;
+  margin-top: 3px;
+  font-family: Avalon, sans-serif;
+}
+  
+.img{
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+  
+.ring4 {
+  height: 110px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+  
+.ring5 {
+  padding-top: 10px;
+  font-size: 12px;
+}
+  
+.line {
+  background-color: lightpink;
+  margin-top: 15px;
+  height: 1px;
+  box-sizing: border-box;
+}
+  
+.ring6 {
+  font-size: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  margin-right: 10px;
+}
+  
+.ring7 {
+  color: #000;
+  text-decoration: none;
+}
+  
+.ring8 {
+  color: grey;
+  text-decoration: none;
+}
+
+.ring9 {
+  position: relative;
+  box-sizing: border-box;
+}
+
+.separate {
+  display: none;
+}
+/*Azeez Mobile end*/
+
+/*soliu's mobile start*/
+.categories_item {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+}
+
+.category {
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.category_header {
+  height: 10%;
+  color: #f42;
+  font-size: 40px;
+  line-height: 2;
+}
+
+.category_bg_img {
+  height: 30%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  padding: 10px;
+}
+
+.bg_img1 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-1.jpg");
+}
+
+.bg_img2 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-2.jpg");
+}
+
+.bg_img3 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/categories-3.jpg");
+}
+
+.bg_img4 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/techimg.jpg");
+}
+
+.bg_img5 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/creativityimg.webp");
+}
+
+.bg_img6 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/podiumimg.webp");
+}
+
+.bg_img7 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/insightimg.webp");
+}
+
+.bg_img8 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/launchimg.jpg");
+}
+
+.bg_img9 {
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+    url("../images/distractimg.jpg");
+}
+
+.img_text {
+  color: #fff;
+  position: absolute;
+  bottom: 30px;
+}
+
+.img_text_para {
+  color: #898888;
+  position: absolute;
+  bottom: 10px;
+  font-size: 15px;
+}
+
+.category_sub {
+  padding-top: 3px;
+  height: 15%;
+  font-size: 16px;
+}
+
+.category_sub_img {
+  float: right;
+  width: 100px;
+}
+
+.category_sub_text {
+  color: #f42;
+  background-color: mistyrose;
+  padding-bottom: 22px;
+  padding-top: 11px;
+  padding-left: 6px;
+}
+
+.category_sub_text_weight {
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.category_sub_text2 {
+  color: #f42;
+  background-color: mistyrose;
+  padding-bottom: 22px;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.category_sub_text3 {
+  color: #f42;
+  background-color: mistyrose;
+  padding-top: 11px;
+  padding-left: 6px;
+  padding-bottom: 4px;
+}
+
+.category_sub_text4 {
+  color: #f42;
+  background-color: mistyrose;
+  padding-bottom: 22px;
+  padding-top: 11px;
+  padding-left: 6px;
+}
+
+.category_list {
+  height: 40%;
+  padding-top: 20px;
+  margin-top: -15px;
+}
+
+.category_list_ul {
+  padding-left: 20px;
+  margin-top: 0;
+}
+
+.category_list_ul > li {
+  font-size: 15px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #898888;
+  padding-bottom: 5px;
+  color: #898888;
+  list-style: none;
+}
+
+.category_list_ul > li::before {
+  content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+
+/*soliu's footer mobile start*/
+.footer {
+  display: flex;
+  flex-direction: column;
+}
+
+/*flex-items*/
+.footer_one {
+  background-color: #131313; 
+  text-align: center;
+  width: 100%;
+  height: auto;
+}
+
+.footer_two {
+  text-align: center;
+  width: 100%;
+  background-color: #000;
+  height: auto;
+}
+
+.footer_socials {
+  color: #fff;
+  font-size: larger;
+}
+
+.footer_socials > i {
+  margin: 25px 10px;
+  background-color: #333;
+  height: 20px;
+  width: 20px;
+  padding: 12px;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.footer_socials > i:hover {
+  cursor: pointer;
+  background-color: #131313;
+}
+
+.footer_links_list {
+  font-family: Shentox,sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  justify-content: center;
+  list-style-type: none;
+  display: flex;
+  color: #555;
+}
+
+.footer_links_list > li {
+  margin-left: 10px;
+}
+
+.footer_links_list > li:hover {
+  cursor: pointer;
+  color: #fff;
+  font-size: 13px;
+}
+
+.copyright {
+  color: #fff;
+  line-height: 5em;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.TNW_home {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.copyright > span {
+  color: #555;
+}
+
+.footer_links_list {
+  font-size: 14px;
+  flex-wrap: wrap;
+}
+/*soliu's footer mobile end*/
+/*soliu's mobile end*/
+
+/*tab view*/
+@media screen and (min-width: 768px) {
+/*Tope's tab start*/
+.tnw {
+  width: 120px;
+  height: 100px;
+}
+
+.nav-links {
+  justify-content: flex-start;
+}
+
+.navlist-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.navlist-subcontainer {
+  display: flex;
+  background-color: black;
+  padding-bottom: 5px;
+  height: 49px;
+}
+
+.nav-list {
+  display: flex;
+  color: darkgrey;
+  justify-content: space-between;
+  list-style: none;
+  width: -webkit-fill-available;
+  padding: 10px;
+  padding-top: 0;
+}
+
+.sub-list1 {
+  display: flex;
+  column-gap: 1em;
+  font-size: 14px;
+  margin-left: 25px;
+}
+
+#news {
+  color: white;
+}
+
+.sub-list2 {
+  display: flex;
+  column-gap: 1em;
+  font-size: 14px;
+}
+
+.spacing {
+  padding-right: 12px;
+}
+
+.header-list-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-list{
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  column-gap: 1em;
+  color: darkgrey;
+}
+
+#shift {
+  display: none;
+}
+
+#neural {
+  display: none;
+}
+
+.menu {
+  display: none;
+}
+
+.nav-icons {
+  display: flex;
+}
+
+.text {
+  padding-left: 160px;
+  height: 11px;
+}
+
+.m-dots {
+  display: none;
+}
+
+.text2 {
+  display: block;
+  width: 15%;
+  position: relative;
+  left: 29em;
+  bottom: 1.73em;
+}
+
+.arrow {
+  position: relative;
+  top: 0.3em;
+}
+
+.latest-news {
+  margin-left: 36px;
+}
+
+.ln-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+
+.ln-sub {
+  display: block;
+  width: 30%;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.ln-img {
+  margin-right: 4%;
+  margin-bottom: 2%;
+  margin-left: 10%;
+}
+
+.sub-img {
+  height: 150px;
+  width: 110%;
+}
+
+.ln-lint {
+  margin-left: 10%;
+}
+
+.price1 {
+  font-size: smaller;
+}
+
+.latest-deals1 {
+  margin-left: 37px;
+}
+
+.latest-deals2 {
+  margin-right: 25px;
+}
+/* Tope's tab end*/
+
+/* Azeez's tab start*/
+.imgs {
+  display: flex;
+}
+
+.item1 {
+  background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 350px;
+  margin-left: 5px;
+}
+
+.opal {
+  font-size: 30px;
+  position: absolute;
+  bottom: 70px;
+}
+
+.flex-sub-container {
+  display: block;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.item2 {
+  height: 170px;
+}
+
+.item3 {
+  height: 170px;
+  margin-top: 10px;
+}
+
+.mobile-author {
+  display: flex;
+  font-size: 10px;
+}
+
+.google {
+  font-size: 15px;
+}
+
+.date-time {
+  display: none;
+}
+
+.ring9 {
+  display: none;
+}
+
+.latest-funding-sub-container2 {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.ring1 {
+  width: 140px;
+}
+
+.ring2 {
+  width: 140px;
+}
+
+.ring4 {
+  width: 230px;
+}
+
+.img {
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 20px;
+  left: 15px;
+}
+
+.separate {
+  display: none;
+}
+
+.item3 {
+  height: 170px;
+  margin-top: 10px;
+}
+
+.mobile-author {
+  display: flex;
+  font-size: 10px;
+}
+
+.google {
+  font-size: 15px;
+}
+
+.date-time {
+  display: none;
+}
+/* Azeez's tab end*/
+
+/*Soliu's tab start*/
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 30px;  
+}
+
+.category_sub_text3 {
+  padding-bottom: 5px;
+}
+/*Soliu's tab end*/
+}
+
+/*desktop view*/
+@media screen and (min-width: 1024px) {
+/* Tope's desktop start*/
+.tnw-logo {
+  display: none;
+}
+
+.header-list {
+  color: darkgrey;
+}
+
+#shift {
+  display: block;
+}
+
+#neural {
+  display: block;
+}
+
+.text {
+  padding-left: 40px;
+}
+
+.latest-news {
+  margin-left: 85px;
+}
+
+.ln-container {
+  width: 96%;
+  margin: 35px;
+}
+
+.sub-img {
+  height: 200px;
+  width: 110%;
+}
+
+.ln-sub {
+  width: 20%;
+}
+
+.latest-deal{
+  width: 85%;
+  margin-left: 5px;
+}
+
+.latest-deals1 {
+  margin-left: 72px;
+}
+/* Tope's desktop end*/
+
+/*Azeez's desktop start*/
+.imgs {
+  display: flex;
+}
+
+.date-time {
+  display: flex;
+}
+
+.date {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  color: white;
+}
+
+.tnw-i1 {
+  width: 320px;
+  height: 100px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.item1 {
+  background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 500px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
+
+.opal {
+  font-size: 40px;
+  position: absolute;
+  bottom: 55px;
+}
+
+.item2 {
+  height: 250px;
+  margin-bottom: 0;
+}
+
+.item3 {
+  height: 240px;
+  margin-top: 10px;
+}
+
+.flex-sub-container {
+  display: block;
+  width: 30%;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.google {
+  font-size: 15px;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+
+.mobile-author {
+  font-size: 13px;
+}
+
+.mobile-a:hover {
+  color: white;
+}
+
+.ring9 {
+  display: block;
+  position: relative;
+}
+
+.ring1 {
+  width: 150px;
+}
+
+.ring2 {
+  width: 150px;
+}
+
+.ring4 {
+  width: 240px;
+}
+
+.img {
+  height: 60px;
+  width: 60px;
+  position: absolute;
+  top: 25px;
+  left: 15px;
+}
+
+.latest-funding-sub-container {
+  display: flex;
+  align-items: end;
+  position: relative;
+}
+
+.add-info {
+  display: flex;
+  margin-left: 30px;
+  position: absolute;
+  top: -12px;
+  right: 15px;
+}
+
+.separate {
+  display: block;
+  color: #f42;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*Azeez's desktop end*/
+
+/*soliu desktop start */
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 70px;
+  column-gap: 0;
+}
+
+.category_sub_text3 {
+  padding-bottom: 22px;
+}
+
+.category_sub_text4 {
+  padding-bottom: 40px;
+}
+/*soliu's desktop end*/
+}
