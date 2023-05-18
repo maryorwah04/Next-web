@@ -784,9 +784,9 @@ body {
 
   .item1 {
     background-image: linear-gradient(
-        rgba(238, 12, 12, 0.356),
-        rgba(0, 0, 0, 1)
-      ),
+      rgba(238, 12, 12, 0.356),
+      rgba(0, 0, 0, 1)
+    ),
       url("../images/image 1.jpeg");
     background-repeat: no-repeat;
     width: 70%;
@@ -859,24 +859,6 @@ body {
   }
 
   .separate {
-    display: none;
-  }
-
-  .item3 {
-    height: 170px;
-    margin-top: 10px;
-  }
-
-  .mobile-author {
-    display: flex;
-    font-size: 10px;
-  }
-
-  .google {
-    font-size: 15px;
-  }
-
-  .date-time {
     display: none;
   }
   /* Azeez's tab end */
@@ -971,9 +953,9 @@ body {
 
   .item1 {
     background-image: linear-gradient(
-        rgba(238, 12, 12, 0.356),
-        rgba(0, 0, 0, 1)
-      ),
+      rgba(238, 12, 12, 0.356),
+      rgba(0, 0, 0, 1)
+    ),
       url("../images/image 1.jpeg");
     background-repeat: no-repeat;
     width: 70%;
