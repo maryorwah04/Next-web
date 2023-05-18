@@ -1,4 +1,4 @@
-/*mobile view*/
+/* mobile view */
 body {
   margin: 0;
   padding: 0;
@@ -7,7 +7,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Tope's mobile start*/
+/* Tope's mobile start */
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -40,7 +40,6 @@ body {
 }
 
 .menu {
-  padding: 5px;
   color: #f42;
   padding: 12px;
 }
@@ -166,14 +165,14 @@ body {
   margin-top: 13px;
   margin-right: 20px;
 }
-/* Tope's mobile end*/
 
-/*Azeez Mobile start*/
+/* Tope's mobile end */
+
+/* Azeez Mobile start */
 .imgs {
   align-content: space-between;
   margin-left: 7px;
   margin-right: 10px;
-  align-content: space-between;
 }
 
 .flex-sub-container {
@@ -181,16 +180,14 @@ body {
 }
 
 .item1 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 1.jpeg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
   box-sizing: border-box;
   height: 200px;
   background-size: cover;
   background-position: center;
   position: relative;
   margin-bottom: 10px;
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 1.jpeg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
   width: 100%;
   height: 200px;
   background-size: cover;
@@ -386,9 +383,10 @@ body {
 .separate {
   display: none;
 }
-/*Azeez Mobile end*/
 
-/*soliu's mobile start*/
+/* Azeez Mobile end */
+
+/* soliu's mobile start */
 .categories_item {
   display: flex;
   flex-direction: column;
@@ -420,47 +418,56 @@ body {
 }
 
 .bg_img1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/categories-1.jpg");
 }
 
 .bg_img2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/categories-2.jpg");
 }
 
 .bg_img3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/categories-3.jpg");
 }
 
 .bg_img4 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/techimg.jpg");
 }
 
 .bg_img5 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/creativityimg.webp");
 }
 
 .bg_img6 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/podiumimg.webp");
 }
 
 .bg_img7 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/insightimg.webp");
 }
 
 .bg_img8 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/launchimg.jpg");
 }
 
 .bg_img9 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
     url("../images/distractimg.jpg");
 }
 
@@ -554,18 +561,17 @@ body {
   margin-left: -1em;
 }
 
-/*soliu's footer mobile start*/
+/* soliu's footer mobile start */
 .footer {
   display: flex;
   flex-direction: column;
 }
 
-/*flex-items*/
+/* flex-items */
 .footer_one {
   background-color: #131313;
   text-align: center;
-  width: 100%;
-  height: auto;
+  height: 180px;
 }
 
 .footer_two {
@@ -577,16 +583,14 @@ body {
 
 .footer_socials {
   color: #fff;
-  font-size: larger;
+  padding-top: 35px;
 }
 
 .footer_socials > i {
-  margin: 25px 10px;
   background-color: #333;
   height: 20px;
   width: 20px;
   padding: 12px;
-  border: 2px solid #333;
   border-radius: 50%;
 }
 
@@ -596,13 +600,15 @@ body {
 }
 
 .footer_links_list {
-  font-family: Shentox, sans-serif;
+  font-family: Shentox,sans-serif;
   font-size: 12px;
-  font-weight: 500;
-  justify-content: center;
   list-style-type: none;
   display: flex;
-  color: #555;
+  color: #aaa;
+  padding-top: 30px;
+  padding-left: 30px;
+  justify-content: center;
+  margin-right: 3em;
 }
 
 .footer_links_list > li {
@@ -618,34 +624,31 @@ body {
 .copyright {
   color: #fff;
   line-height: 5em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .TNW_home {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
 }
 
-.copyright > span {
-  color: #555;
+.stackpath {
+  color: #fff;
+  text-decoration: none;
 }
 
-.footer_links_list {
-  font-size: 14px;
-  flex-wrap: wrap;
-}
-/*soliu's footer mobile end*/
-/*soliu's mobile end*/
+/* soliu's footer mobile end */
 
-/*tab view*/
+/* soliu's mobile end */
+
+/* tab view */
 @media screen and (min-width: 768px) {
-  /*Tope's tab start*/
-  .tnw {
-    width: 120px;
-    height: 100px;
-  }
+/*Tope's tab start*/
+.tnw {
+  width: 120px;
+  height: 100px;
+}
 
   .nav-links {
     justify-content: flex-start;
@@ -787,27 +790,23 @@ body {
     margin-left: 37px;
   }
 
-  .latest-deals2 {
-    margin-right: 25px;
-  }
-  /* Tope's tab end*/
+.latest-deals2 {
+  margin-right: 25px;
+}
+/* Tope's tab end*/
 
-  /* Azeez's tab start*/
-  .imgs {
-    display: flex;
-  }
+/* Azeez's tab start*/
+.imgs {
+  display: flex;
+}
 
-  .item1 {
-    background-image: linear-gradient(
-        rgba(238, 12, 12, 0.356),
-        rgba(0, 0, 0, 1)
-      ),
-      url("../images/image 1.jpeg");
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 350px;
-    margin-left: 5px;
-  }
+.item1 {
+  background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 350px;
+  margin-left: 5px;
+}
 
   .opal {
     font-size: 30px;
@@ -877,44 +876,44 @@ body {
     display: none;
   }
 
-  .item3 {
-    height: 170px;
-    margin-top: 10px;
-  }
-
-  .mobile-author {
-    display: flex;
-    font-size: 10px;
-  }
-
-  .google {
-    font-size: 15px;
-  }
-
-  .date-time {
-    display: none;
-  }
-  /* Azeez's tab end*/
-
-  /*Soliu's tab start*/
-  .categories_item {
-    display: grid;
-    grid-template-columns: auto auto;
-    margin-left: 30px;
-  }
-
-  .category_sub_text3 {
-    padding-bottom: 5px;
-  }
-  /*Soliu's tab end*/
+.item3 {
+  height: 170px;
+  margin-top: 10px;
 }
 
-/*desktop view*/
+.mobile-author {
+  display: flex;
+  font-size: 10px;
+}
+
+.google {
+  font-size: 15px;
+}
+
+.date-time {
+  display: none;
+}
+/* Azeez's tab end*/
+
+/*Soliu's tab start*/
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 30px;  
+}
+
+.category_sub_text3 {
+  padding-bottom: 5px;
+}
+/*Soliu's tab end*/
+}
+
+/* desktop view */
 @media screen and (min-width: 1024px) {
-  /* Tope's desktop start*/
-  .tnw-logo {
-    display: none;
-  }
+/* Tope's desktop start*/
+.tnw-logo {
+  display: none;
+}
 
   .header-list {
     color: darkgrey;
@@ -955,15 +954,15 @@ body {
     margin-left: 5px;
   }
 
-  .latest-deals1 {
-    margin-left: 72px;
-  }
-  /* Tope's desktop end*/
+.latest-deals1 {
+  margin-left: 72px;
+}
+/* Tope's desktop end*/
 
-  /*Azeez's desktop start*/
-  .imgs {
-    display: flex;
-  }
+/*Azeez's desktop start*/
+.imgs {
+  display: flex;
+}
 
   .date-time {
     display: flex;
@@ -984,18 +983,14 @@ body {
     left: 20px;
   }
 
-  .item1 {
-    background-image: linear-gradient(
-        rgba(238, 12, 12, 0.356),
-        rgba(0, 0, 0, 1)
-      ),
-      url("../images/image 1.jpeg");
-    background-repeat: no-repeat;
-    width: 70%;
-    height: 500px;
-    margin-left: 5px;
-    margin-bottom: 0;
-  }
+.item1 {
+  background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
+  background-repeat: no-repeat;
+  width: 70%;
+  height: 500px;
+  margin-left: 5px;
+  margin-bottom: 0;
+}
 
   .opal {
     font-size: 40px;
@@ -1073,28 +1068,28 @@ body {
     right: 15px;
   }
 
-  .separate {
-    display: block;
-    color: #f42;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
-  /*Azeez's desktop end*/
+.separate {
+  display: block;
+  color: #f42;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+/*Azeez's desktop end*/
 
-  /*soliu desktop start */
-  .categories_item {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-left: 70px;
-    column-gap: 0;
-  }
+/*soliu desktop start */
+.categories_item {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin-left: 70px;
+  column-gap: 0;
+}
 
   .category_sub_text3 {
     padding-bottom: 22px;
   }
 
-  .category_sub_text4 {
-    padding-bottom: 40px;
-  }
-  /*soliu's desktop end*/
+.category_sub_text4 {
+  padding-bottom: 40px;
+}
+/*soliu's desktop end*/
 }
