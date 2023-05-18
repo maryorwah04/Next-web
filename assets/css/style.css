@@ -496,7 +496,7 @@ body {
 .category_sub_text {
   color: #f42;
   background-color: mistyrose;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   padding-top: 11px;
   padding-left: 15px;
 }
@@ -504,7 +504,7 @@ body {
 .category_sub_text2 {
   color: #f42;
   background-color: mistyrose;
-  padding-bottom: 20px;
+  padding-bottom: 22px;
   padding-top: 11px;
   padding-left: 15px;
 }
@@ -514,13 +514,13 @@ body {
   background-color: mistyrose;
   padding-top: 11px;
   padding-left: 15px;
-  padding-bottom: 3px;
+  padding-bottom: 4px;
 }
 
 .category_sub_text4 {
   color: #f42;
   background-color: mistyrose;
-  padding-bottom: 38px;
+  padding-bottom: 40px;
   padding-top: 11px;
   padding-left: 15px;
 }
@@ -528,6 +528,12 @@ body {
 .category_list {
   height: 40%;
   padding-top: 20px;
+  margin-top: -15px;
+}
+
+.category_list_ul {
+  padding-left: 20px;
+  margin-top: 0;
 }
 
 .category_list_ul > li {
@@ -535,7 +541,6 @@ body {
   margin-bottom: 10px;
   border-bottom: 1px solid #898888;
   color: #898888;
-
 }
 
 /*soliu's footer mobile start*/
