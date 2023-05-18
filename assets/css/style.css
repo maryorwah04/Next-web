@@ -179,8 +179,7 @@ body {
 }
 
 .item1 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 1.jpeg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg") no-repeat;
   height: 200px;
   background-size: cover;
   background-position: center;
@@ -234,8 +233,7 @@ body {
 }
 
 .item2 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 2.jpeg") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 2.jpeg") no-repeat;
   box-sizing: border-box;
   height: 200px;
   background-position: center;
@@ -245,8 +243,7 @@ body {
 }
 
 .item3 {
-  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/image 3.png") no-repeat;
+  background: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/image 3.png") no-repeat;
   box-sizing: border-box;
   height: 200px;
   background-size: cover;
@@ -409,48 +406,39 @@ body {
 }
 
 .bg_img1 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/categories-1.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/categories-1.jpg");
 }
 
 .bg_img2 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/categories-2.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/categories-2.jpg");
 }
 
 .bg_img3 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/categories-3.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/categories-3.jpg");
 }
 
 .bg_img4 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/techimg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/techimg.jpg");
 }
 
 .bg_img5 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/creativityimg.webp");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/creativityimg.webp");
 }
 
 .bg_img6 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/podiumimg.webp");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/podiumimg.webp");
 }
 
 .bg_img7 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/insightimg.webp");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/insightimg.webp");
 }
 
 .bg_img8 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/launchimg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/launchimg.jpg");
 }
 
 .bg_img9 {
-  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)),
-    url("../images/distractimg.jpg");
+  background-image: linear-gradient(rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 1)), url("../images/distractimg.jpg");
 }
 
 .img_text {
