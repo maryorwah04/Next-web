@@ -165,6 +165,7 @@ body {
   margin-top: 13px;
   margin-right: 20px;
 }
+
 /* Tope's mobile end */
 
 /* Azeez Mobile start */
@@ -770,11 +771,7 @@ body {
   }
 
   .item1 {
-    background-image: linear-gradient(
-      rgba(238, 12, 12, 0.356),
-      rgba(0, 0, 0, 1)
-    ),
-      url("../images/image 1.jpeg");
+    background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
     background-repeat: no-repeat;
     width: 70%;
     height: 350px;
@@ -939,11 +936,7 @@ body {
   }
 
   .item1 {
-    background-image: linear-gradient(
-      rgba(238, 12, 12, 0.356),
-      rgba(0, 0, 0, 1)
-    ),
-      url("../images/image 1.jpeg");
+    background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
     background-repeat: no-repeat;
     width: 70%;
     height: 500px;
