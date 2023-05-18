@@ -504,12 +504,20 @@ body {
 .category_sub_text2 {
   color: #f42;
   background-color: mistyrose;
+  padding-bottom: 20px;
+  padding-top: 11px;
+  padding-left: 15px;
+}
+
+.category_sub_text3 {
+  color: #f42;
+  background-color: mistyrose;
   padding-top: 11px;
   padding-left: 15px;
   padding-bottom: 3px;
 }
 
-.category_sub_text3 {
+.category_sub_text4 {
   color: #f42;
   background-color: mistyrose;
   padding-bottom: 38px;
@@ -529,7 +537,6 @@ body {
   color: #898888;
 
 }
-/*soliu's mobile end*/
 
 /*soliu's footer mobile start*/
 .footer {
@@ -613,6 +620,7 @@ body {
   flex-wrap: wrap;
 }
 /*soliu's footer mobile end*/
+/*soliu's mobile end*/
 
 /*tab view*/
 @media screen and (min-width: 768px) {
