@@ -1,5 +1,4 @@
 /* mobile view */
-
 body {
   margin: 0;
   padding: 0;
@@ -9,7 +8,6 @@ body {
 }
 
 /* Tope's mobile start */
-
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -167,11 +165,9 @@ body {
   margin-top: 13px;
   margin-right: 20px;
 }
-
 /* Tope's mobile end */
 
 /* Azeez Mobile start */
-
 .imgs {
   align-content: space-between;
   margin-left: 7px;
@@ -379,9 +375,9 @@ body {
 .separate {
   display: none;
 }
-/*Azeez Mobile end*/
+/* Azeez Mobile end */
 
-/*soliu's mobile start*/
+/* soliu's mobile start */
 .categories_item {
   display: flex;
   flex-direction: column;
@@ -547,13 +543,13 @@ body {
   margin-left: -1em;
 }
 
-/*soliu's footer mobile start*/
+/* soliu's footer mobile start */
 .footer {
   display: flex;
   flex-direction: column;
 }
 
-/*flex-items*/
+/* flex-items */
 .footer_one {
   background-color: #131313;
   text-align: center;
@@ -629,12 +625,12 @@ body {
   font-size: 14px;
   flex-wrap: wrap;
 }
-/*soliu's footer mobile end*/
-/*soliu's mobile end*/
+/* soliu's footer mobile end */
+/* soliu's mobile end */
 
-/*tab view*/
+/* tab view */
 @media screen and (min-width: 768px) {
-  /*Tope's tab start*/
+  /* Tope's tab start */
   .tnw {
     width: 120px;
     height: 100px;
@@ -783,9 +779,9 @@ body {
   .latest-deals2 {
     margin-right: 25px;
   }
-  /* Tope's tab end*/
+  /* Tope's tab end */
 
-  /* Azeez's tab start*/
+  /* Azeez's tab start */
   .imgs {
     display: flex;
   }
@@ -887,9 +883,9 @@ body {
   .date-time {
     display: none;
   }
-  /* Azeez's tab end*/
+  /* Azeez's tab end */
 
-  /*Soliu's tab start*/
+  /* Soliu's tab start */
   .categories_item {
     display: grid;
     grid-template-columns: auto auto;
@@ -899,12 +895,12 @@ body {
   .category_sub_text3 {
     padding-bottom: 5px;
   }
-  /*Soliu's tab end*/
+  /* Soliu's tab end */
 }
 
-/*desktop view*/
+/* desktop view */
 @media screen and (min-width: 1024px) {
-  /* Tope's desktop start*/
+  /* Tope's desktop start */
   .tnw-logo {
     display: none;
   }
@@ -951,9 +947,9 @@ body {
   .latest-deals1 {
     margin-left: 72px;
   }
-  /* Tope's desktop end*/
+  /* Tope's desktop end */
 
-  /*Azeez's desktop start*/
+  /* Azeez's desktop start */
   .imgs {
     display: flex;
   }
@@ -1072,9 +1068,9 @@ body {
     margin-left: 5px;
     margin-right: 5px;
   }
-  /*Azeez's desktop end*/
+  /* Azeez's desktop end */
 
-  /*soliu desktop start */
+  /* soliu desktop start */
   .categories_item {
     display: grid;
     grid-template-columns: auto auto auto;
@@ -1089,5 +1085,5 @@ body {
   .category_sub_text4 {
     padding-bottom: 40px;
   }
-  /*soliu's desktop end*/
+  /* soliu's desktop end */
 }
