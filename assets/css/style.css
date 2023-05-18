@@ -1064,7 +1064,8 @@ body {
 .categories_item {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin-left: 50px;
+  margin-left: 70px;
+  column-gap: 0;
 }
 /*soliu's desktop end*/
 }
