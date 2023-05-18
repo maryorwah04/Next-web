@@ -498,7 +498,12 @@ body {
   background-color: mistyrose;
   padding-bottom: 22px;
   padding-top: 11px;
-  padding-left: 15px;
+  padding-left: 6px;
+}
+
+.category_sub_text_weight {
+  text-decoration: none;
+  font-weight: 700;
 }
 
 .category_sub_text2 {
@@ -513,16 +518,16 @@ body {
   color: #f42;
   background-color: mistyrose;
   padding-top: 11px;
-  padding-left: 15px;
+  padding-left: 6px;
   padding-bottom: 4px;
 }
 
 .category_sub_text4 {
   color: #f42;
   background-color: mistyrose;
-  padding-bottom: 40px;
+  padding-bottom: 22px;
   padding-top: 11px;
-  padding-left: 15px;
+  padding-left: 6px;
 }
 
 .category_list {
