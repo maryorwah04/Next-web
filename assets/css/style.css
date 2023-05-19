@@ -578,6 +578,8 @@ body {
   color: #aaa;
   padding-top: 30px;
   padding-left: 30px;
+  justify-content: center;
+  margin-right: 3em;
 }
 
 .footer_links_list > li {
@@ -866,6 +868,32 @@ body {
     padding-bottom: 5px;
   }
 
+  .copyright {
+    display: flex;
+    justify-content: center;
+  }
+
+  .copyright2 {
+    margin-left: 5px;
+    margin-right: 5px;
+    position: relative;
+    bottom: 0.5em;
+  }
+
+  .copyright3 {
+    position: relative;
+    top: 0.1em;
+  }
+
+  .TNW_home {
+    font-size: 15px;
+  }
+
+  .footer_socials {
+    justify-content: center;
+    display: flex;
+    column-gap: 1em;
+  }
   /* Soliu's tab end */
 }
 
