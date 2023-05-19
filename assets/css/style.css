@@ -265,24 +265,25 @@ body {
 .funding-text {
   text-decoration: none;
   color: orangered;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 25px;
+  font-weight: 700;
 }
 
 .add-info {
-  display: block;
   color: #f42;
   text-decoration: none;
-  font-size: 20px;
   margin-top: 20px;
 }
 
 .info {
   display: block;
-  margin-top: 3px;
-  font-size: 20px;
+  margin-top: 10px;
   color: #f42;
   text-decoration: none;
+}
+
+.latest-funding-container {
+  padding-top: 5px;
 }
 
 .ring {
@@ -294,6 +295,7 @@ body {
   background-color: orangered;
   color: white;
   font-weight: 600;
+  font-size: 18px;
   height: 35px;
   padding-top: 10px;
   padding-left: 90px;
@@ -303,7 +305,7 @@ body {
 
 .ring2 {
   background-color: mistyrose;
-  height: 40px;
+  height: 60px;
   padding-top: 10px;
   padding-left: 90px;
   font-weight: 600;
@@ -341,6 +343,11 @@ body {
   font-size: 12px;
 }
 
+.all-text {
+  text-decoration: none;
+  font-size: 13px;
+}
+
 .line {
   background-color: lightpink;
   margin-top: 15px;
@@ -358,6 +365,8 @@ body {
 .ring7 {
   color: #000;
   text-decoration: none;
+  font-size: 11px;
+  line-height: 1.5em;
 }
 
 .ring8 {
@@ -366,8 +375,7 @@ body {
 }
 
 .ring9 {
-  position: relative;
-  box-sizing: border-box;
+  display: none;
 }
 
 .separate {
@@ -776,6 +784,27 @@ body {
   /* Tope's tab end */
 
   /* Azeez's tab start */
+  .funding-text {
+    position: relative;
+    top: 0.8em;
+    font-weight: 700;
+  }
+
+  .latest-funding-container {
+    display: flex;
+    column-gap: 0.5em;
+  }
+
+  .add-info {
+    display: flex;
+    column-gap: 1em;
+  }
+
+  .separate {
+    display: block;
+    margin-top: 9px;
+  }
+
   .imgs {
     display: flex;
   }
@@ -827,21 +856,17 @@ body {
     display: none;
   }
 
-  .latest-funding-sub-container2 {
-    display: flex;
-    justify-content: space-evenly;
-  }
-
   .ring1 {
-    width: 140px;
+    width: 180px;
   }
 
   .ring2 {
-    width: 140px;
+    width: 180px;
   }
 
   .ring4 {
-    width: 230px;
+    width: 270px;
+    height: 150px;
   }
 
   .img {
@@ -850,10 +875,6 @@ body {
     position: absolute;
     top: 20px;
     left: 15px;
-  }
-
-  .separate {
-    display: none;
   }
 
   /* Azeez's tab end */
@@ -1026,18 +1047,6 @@ body {
     position: relative;
   }
 
-  .ring1 {
-    width: 150px;
-  }
-
-  .ring2 {
-    width: 150px;
-  }
-
-  .ring4 {
-    width: 240px;
-  }
-
   .img {
     height: 60px;
     width: 60px;
@@ -1046,18 +1055,22 @@ body {
     left: 15px;
   }
 
+  .latest-funding {
+    padding-left: 42px;
+  }
+
+  .latest-funding-container {
+    column-gap: 1em;
+  }
+
   .latest-funding-sub-container {
     display: flex;
-    align-items: end;
-    position: relative;
+    padding-bottom: 10px;
+    column-gap: 18.5em;
   }
 
   .add-info {
-    display: flex;
-    margin-left: 30px;
-    position: absolute;
-    top: -12px;
-    right: 15px;
+    flex-direction: row-reverse;
   }
 
   .separate {
