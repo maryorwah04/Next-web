@@ -543,8 +543,7 @@ body {
 .footer_one {
   background-color: #131313;
   text-align: center;
-  width: 100%;
-  height: auto;
+  height: 180px;
 }
 
 .footer_two {
@@ -556,16 +555,14 @@ body {
 
 .footer_socials {
   color: #fff;
-  font-size: larger;
+  padding-top: 35px;
 }
 
 .footer_socials > i {
-  margin: 25px 10px;
   background-color: #333;
   height: 20px;
   width: 20px;
   padding: 12px;
-  border: 2px solid #333;
   border-radius: 50%;
 }
 
@@ -575,14 +572,12 @@ body {
 }
 
 .footer_links_list {
-  font-family: Shentox, sans-serif;
-  font-size: 14px;
-  flex-wrap: wrap;
-  font-weight: 500;
-  justify-content: center;
+  font-size: 12px;
   list-style-type: none;
   display: flex;
-  color: #555;
+  color: #aaa;
+  padding-top: 30px;
+  padding-left: 30px;
 }
 
 .footer_links_list > li {
@@ -596,21 +591,29 @@ body {
 }
 
 .copyright {
-  color: #fff;
-  line-height: 5em;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #aaa;
+  font-size: 13px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 0.5em;
+}
+
+.keyboard-arrow {
+  font-size: 15px;
+  position: relative;
+  top: 0.2em;
 }
 
 .TNW_home {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
+  font-weight: 900;
 }
 
-.copyright > span {
-  color: #555;
+.stackpath {
+  color: #fff;
+  text-decoration: none;
 }
-
 /* soliu's footer mobile end */
 
 /* soliu's mobile end */
