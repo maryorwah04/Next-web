@@ -7,10 +7,6 @@ body {
   overflow-x: hidden;
 }
 
-/* {
-  outline: 1px solid red;
-}*/
-
 /* Tope's mobile start */
 .main-header {
   position: sticky;
@@ -396,7 +392,6 @@ body {
   text-decoration: none;
   color: darkgrey;
 }
-
 
 /* Azeez Mobile end */
 
@@ -847,6 +842,68 @@ body {
     display: none;
   }
 
+  /* latest-funding */
+  .latest-funding-header2 {
+    display: block;
+  }
+
+  .line { 
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    color: #f42;
+  }
+
+  .main-rskw {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 1.5em;
+  }
+
+  .write-up1 {
+    font-size: 18px;
+  }
+
+  .write-up2 {
+    font-size: 15px;
+  }
+
+  .write-up3 {
+    font-size: 15px;
+  }
+
+  .write-up4 {
+    font-size: 13px;
+  }
+
+  .rskw-line{
+    height: 1px;
+    width: 117%;
+    background-color: rgba(255, 68, 34, 0.08);    margin-top: -10px;
+    position: relative;
+    right: 1.5em;
+    bottom: 1.5em;  
+  }
+
+  .ringover, .swiss, .klook {
+    background-color: rgba(0, 0, 0, 0.08);
+  }  
+
+  .rskw3 {
+    background-color: rgba(248, 240, 239, 0.08);  }
+
+  .rskw4 {
+    font-size: 12px;
+    background-color: rgba(248, 240, 239, 0.08);  }
+
+  .swiss {
+    margin-top: 0;
+    width: 240px;
+  }
+
+  .klook {
+    margin-top: 0;
+  }
   /* Azeez's tab end */
 
   /* Soliu's tab start */
