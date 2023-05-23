@@ -7,7 +7,18 @@ body {
   overflow-x: hidden;
 }
 
+/* {
+  outline: 1px solid red;
+}*/
+
 /* Tope's mobile start */
+.main-header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+  z-index: 1;
+}
+
 .nav-links {
   display: flex;
   justify-content: space-between;
@@ -63,6 +74,10 @@ body {
 
 .m-dots {
   text-decoration: none;
+}
+
+.main-latest-news {
+  margin: 10px;
 }
 
 .ln {
@@ -142,6 +157,10 @@ body {
   text-decoration: none;
   margin: 5px;
   padding-left: 5px;
+}
+
+.main-latest-deal {
+  margin: 10px;
 }
 
 .latest-deal {
@@ -256,131 +275,132 @@ body {
   display: none;
 }
 
-.latest-funding {
-  margin-top: 20px;
-  margin-left: 25px;
-  margin-right: 10px;
+/* Latest-funding */
+.main-container-latest-funding {
+  margin: 20px;
 }
 
-.funding-text {
-  text-decoration: none;
-  color: orangered;
-  font-size: 25px;
-  font-weight: 700;
-}
-
-.add-info {
+.latest-funding-header1 {
   color: #f42;
   text-decoration: none;
-  margin-top: 20px;
+  font-size: 23px;
+  font-weight: 800;
 }
 
-.info {
-  display: block;
-  margin-top: 10px;
-  color: #f42;
-  text-decoration: none;
-}
-
-.latest-funding-container {
-  padding-top: 5px;
-}
-
-.ring {
-  position: relative;
-  box-sizing: border-box;
-}
-
-.ring1 {
-  background-color: orangered;
-  color: white;
-  font-weight: 600;
-  font-size: 18px;
-  height: 35px;
-  padding-top: 10px;
-  padding-left: 90px;
+.latest-funding-header2 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.7em;
   margin-top: 15px;
-  margin-right: 10px;
+  margin-bottom: 15px;
 }
 
-.ring2 {
-  background-color: mistyrose;
-  height: 60px;
-  padding-top: 10px;
-  padding-left: 90px;
-  font-weight: 600;
-  font-size: larger;
-  font-family: Avalon, sans-serif;
-  margin-right: 10px;
-}
-
-.ring3 {
-  display: block;
-  font-size: 12px;
-  width: 100%;
-  color: gray;
-  margin-top: 3px;
-  font-family: Avalon, sans-serif;
-}
-
-.img {
-  height: 60px;
-  width: 60px;
-  position: absolute;
-  top: 10px;
-  left: 10px;
-}
-
-.ring4 {
-  height: 110px;
-  margin-bottom: 20px;
-  box-sizing: border-box;
-  margin-right: 10px;
-}
-
-.ring5 {
-  padding-top: 10px;
-  font-size: 12px;
-}
-
-.all-text {
+.sub-latest-funding {
   text-decoration: none;
-  font-size: 13px;
+  color: #f42;
 }
 
 .line {
-  background-color: lightpink;
-  margin-top: 15px;
-  height: 1px;
-  box-sizing: border-box;
+  display: none;
 }
 
-.ring6 {
-  font-size: 10px;
-  padding-left: 10px;
-  padding-top: 10px;
+.main-rskw {
+
+}
+
+.ringover {
+  background-color: rgba(255, 68, 34, 0.08);
+}
+
+.rskw1 {
+  background-color: #f42;
+  padding: 10px;
+}
+
+.latest-funding-image {
+  position: absolute;
+}
+
+.write-up1 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  margin-left: 75px;
+}
+
+.swiss {
+  background-color: rgba(255, 68, 34, 0.08);
+  margin-top: 10px;
+}
+
+.rskw2 {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.write-up2 {
+  color: black;
+  text-decoration: none;
+  font-weight: 800;
+  font-size: 20px;
+  margin-left: 75px;
+}
+
+.write-up3 {
+  text-decoration: none;
+  color: darkgrey;
+  font-size: 13px;
+  margin-left: 75px;
+}
+
+.klook {
+  background-color: rgba(255, 68, 34, 0.08);
+  margin-top: 10px;
+}
+
+.rskw3 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5em;
+  padding: 25px;
+  background-color: #fffdf8;
+}
+
+.sub-rskw3 {
+  position: relative;
+  right: 1em;
+}
+
+.fa {
   margin-right: 10px;
 }
 
-.ring7 {
-  color: #000;
+.write-up4 {
   text-decoration: none;
-  font-size: 11px;
-  line-height: 1.5em;
+  font-size: 14px;
+  color: dimgray;
 }
 
-.ring8 {
-  color: grey;
-  text-decoration: none;
-}
-
-.ring9 {
+.wolt {
   display: none;
 }
 
-.separate {
-  display: none;
+.rskw4 {
+  padding: 20px;
+  font-size: 13px;
+  background-color: #fffdf8;
+  margin-top: 2px;
+  color: dimgray;
 }
+
+.write-up5 {
+  text-decoration: none;
+  color: darkgrey;
+}
+
 
 /* Azeez Mobile end */
 
@@ -784,27 +804,6 @@ body {
   /* Tope's tab end */
 
   /* Azeez's tab start */
-  .funding-text {
-    position: relative;
-    top: 0.8em;
-    font-weight: 700;
-  }
-
-  .latest-funding-container {
-    display: flex;
-    column-gap: 0.5em;
-  }
-
-  .add-info {
-    display: flex;
-    column-gap: 1em;
-  }
-
-  .separate {
-    display: block;
-    margin-top: 9px;
-  }
-
   .imgs {
     display: flex;
   }
@@ -850,31 +849,6 @@ body {
 
   .date-time {
     display: none;
-  }
-
-  .ring9 {
-    display: none;
-  }
-
-  .ring1 {
-    width: 180px;
-  }
-
-  .ring2 {
-    width: 180px;
-  }
-
-  .ring4 {
-    width: 270px;
-    height: 150px;
-  }
-
-  .img {
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    top: 20px;
-    left: 15px;
   }
 
   /* Azeez's tab end */
@@ -1042,43 +1016,6 @@ body {
     color: white;
   }
 
-  .ring9 {
-    display: block;
-    position: relative;
-  }
-
-  .img {
-    height: 60px;
-    width: 60px;
-    position: absolute;
-    top: 25px;
-    left: 15px;
-  }
-
-  .latest-funding {
-    padding-left: 42px;
-  }
-
-  .latest-funding-container {
-    column-gap: 1em;
-  }
-
-  .latest-funding-sub-container {
-    display: flex;
-    padding-bottom: 10px;
-    column-gap: 18.5em;
-  }
-
-  .add-info {
-    flex-direction: row-reverse;
-  }
-
-  .separate {
-    display: block;
-    color: #f42;
-    margin-left: 5px;
-    margin-right: 5px;
-  }
 
   /* Azeez's desktop end */
 
