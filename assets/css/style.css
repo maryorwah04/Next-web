@@ -183,7 +183,7 @@ body {
   bottom: 5px;
   left: -28px;
   font-family: Avalon, sans-serif;
-  font-size: 15px;
+  font-size: 13px;
   list-style: none;
 }
   
@@ -686,7 +686,7 @@ body {
 }
 
 .google {
-  font-size: 15px;
+  font-size: 20px;
   letter-spacing: 1px;
   line-height: 20px;
 }
@@ -704,21 +704,29 @@ body {
   position: relative;
 }
 
+.funding-text {
+  font-size: 23px;
+}
+
 .ring1 {
-  width: 150px;
+  background-size: cover;
 }
 
 .ring2 {
-  width: 150px;
 }
 
 .ring4 {
-  width: 240px;
+  background-color: floralwhite;
+}
+
+.latest-funding-sub-container2 {
+  box-sizing: border-box;
+  justify-content: space-evenly;
 }
 
 .img {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
   position: absolute;
   top: 25px;
   left: 15px;
@@ -735,12 +743,20 @@ body {
   margin-left: 30px;
   position: absolute;
   top: -12px;
-  right: 15px;
+  right: 100px;
+}
+
+.funding-text:hover {
+  color: black;
+}
+
+.info:hover {
+  color: black;
 }
 
 .separate {
   display: block;
-  color: #f42;
+  color: rgb(255, 78, 34);
   margin-left: 5px;
   margin-right: 5px;
 }
