@@ -882,7 +882,7 @@ body {
 
   .ringover,
   .swiss,
-  .klook, 
+  .klook,
   .wolt {
     background-color: rgba(0, 0, 0, 0.08);
   }
@@ -895,7 +895,7 @@ body {
     font-size: 12px;
     background-color: rgba(248, 240, 239, 0.08);
   }
-  
+
   .swiss {
     margin-top: 0;
     width: 240px;
