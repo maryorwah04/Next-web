@@ -246,6 +246,7 @@ body {
 
 .fa {
   padding-left: 10px;
+  margin-right: 10px;
 }
 
 .item2 {
@@ -364,10 +365,6 @@ body {
 .sub-rskw3 {
   position: relative;
   right: 1em;
-}
-
-.fa {
-  margin-right: 10px;
 }
 
 .write-up4 {
