@@ -880,20 +880,22 @@ body {
     bottom: 1.5em;
   }
 
-  .ringover, 
-  .swiss, 
+  .ringover,
+  .swiss,
   .klook, 
   .wolt {
     background-color: rgba(0, 0, 0, 0.08);
-  }  
+  }
 
   .rskw3 {
-    background-color: rgba(248, 240, 239, 0.08);  }
+    background-color: rgba(248, 240, 239, 0.08);
+  }
 
   .rskw4 {
     font-size: 12px;
-    background-color: rgba(248, 240, 239, 0.08);  }
-
+    background-color: rgba(248, 240, 239, 0.08);
+  }
+  
   .swiss {
     margin-top: 0;
     width: 240px;
