@@ -842,7 +842,7 @@ body {
     display: block;
   }
 
-  .line { 
+  .line {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
@@ -871,16 +871,19 @@ body {
     font-size: 13px;
   }
 
-  .rskw-line{
+  .rskw-line {
     height: 1px;
     width: 117%;
     background-color: rgba(255, 68, 34, 0.08);
     position: relative;
     right: 1.5em;
-    bottom: 1.5em;  
+    bottom: 1.5em;
   }
 
-  .ringover, .swiss, .klook, .wolt {
+  .ringover, 
+  .swiss, 
+  .klook, 
+  .wolt {
     background-color: rgba(0, 0, 0, 0.08);
   }  
 
