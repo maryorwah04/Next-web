@@ -800,8 +800,6 @@ body {
   }
 
   .item1 {
-    background-image: linear-gradient(rgba(238, 12, 12, 0.356), rgba(0, 0, 0, 1)), url("../images/image 1.jpeg");
-    background-repeat: no-repeat;
     width: 70%;
     height: 350px;
     margin-left: 5px;
@@ -879,13 +877,13 @@ body {
   .rskw-line{
     height: 1px;
     width: 117%;
-    background-color: rgba(255, 68, 34, 0.08);    margin-top: -10px;
+    background-color: rgba(255, 68, 34, 0.08);
     position: relative;
     right: 1.5em;
     bottom: 1.5em;  
   }
 
-  .ringover, .swiss, .klook {
+  .ringover, .swiss, .klook, .wolt {
     background-color: rgba(0, 0, 0, 0.08);
   }  
 
@@ -904,6 +902,7 @@ body {
   .klook {
     margin-top: 0;
   }
+
   /* Azeez's tab end */
 
   /* Soliu's tab start */
@@ -968,6 +967,14 @@ body {
 
   .text {
     padding-left: 40px;
+  }
+
+  .main-latest-news {
+    margin-left: 200px;
+  }
+
+  .main-latest-deal {
+    margin-left: 200px;
   }
 
   .latest-news {
@@ -1069,6 +1076,33 @@ body {
     color: white;
   }
 
+  /* Latest-funding */
+  .latest-funding-header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .latest-funding-header2 {
+    display: flex;
+    flex-flow: row-reverse;
+  }
+
+  .main-rskw {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+  }
+
+  .swiss {
+    width: 100%;
+  }
+
+  .wolt {
+    display: block;
+  }
+
+  .rskw-line {
+    width: 109%;
+  }
 
   /* Azeez's desktop end */
 
